@@ -17,19 +17,18 @@
     
 	  ``` 
       npm install
-
 2. Running the Application
 
    - Once the dependencies are installed, you can start the development server by running this command:
 
 	 ```
 	 npm run dev
-
 3. The application should now be accessible in your web browser at http://localhost:3000
 
 > Common Issues & Solutions
 
 - When you get `Module Not Found Errors` use these commands:
+
   ```
   npm install @radix-ui/react-switch
   npm install @radix-ui/react-dropdown-menu
