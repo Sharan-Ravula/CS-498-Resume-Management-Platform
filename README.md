@@ -32,3 +32,6 @@
   ```
   npm install @radix-ui/react-switch
   npm install @radix-ui/react-dropdown-menu
+
+4. Website Link:
+	- [Resume Manangement Platform](https://autoume-41f5f.web.app/upload)
