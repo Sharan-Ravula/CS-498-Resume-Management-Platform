@@ -35,7 +35,7 @@
 
 4. Website Link:
 
-<a href="https://autoume-41f5f.web.app/upload" target="_blank">Resume Managment Platform</a>
+	- <a href="https://autoume-41f5f.web.app/upload" target="_blank" rel="noopener noreferrer">Resume Managment Platform</a>
 
 5. Contributors:
    - Sharan Ravula
