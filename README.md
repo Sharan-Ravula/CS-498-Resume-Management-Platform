@@ -27,7 +27,7 @@
 
 > Common Issues & Solutions
 
-- When you get `Module Not Found Errors` use these commands:
+- When you encounter `Module Not Found Errors` use these commands:
 
   ```
   npm install @radix-ui/react-switch
