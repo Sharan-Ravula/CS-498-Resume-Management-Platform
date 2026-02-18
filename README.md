@@ -59,8 +59,10 @@ CS-498-Resume-Management-Platform/
 │	├── package-lock.json               # Locked dependency versions
 │	├── package.json                    # Project metadata and dependencies [cite: 4, 5]
 │	├── postcss.config.js               # CSS processing configuration
-│	├── tailwind.config.ts              # Styling system configuration
+│	├── tailwind.config.ts              # TypeScript styling system configuration
 │	├── tsconfig.json                   # TypeScript compiler settings
+│	├── postcss.config.mjs              # ES Module CSS processing configuration
+│	├── tailwind.config.js              # JavaScript styling system configuration
 │
 │	docs/
 │	├── project_final_report.pdf		# Summary of the project’s development process
