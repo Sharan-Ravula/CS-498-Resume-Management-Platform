@@ -7,7 +7,7 @@
 
 ## Getting Started 🔥
 
-### Setup and Installation:
+### 💥 Setup and Installation:
 
 1. To get the project running on your local machine, follow these steps:
 
