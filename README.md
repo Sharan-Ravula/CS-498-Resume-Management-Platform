@@ -19,19 +19,55 @@ The platform leverages Next.js for a responsive frontend and Firebase for robust
 ## 📂 Repository Structure
 
 ```text
-autoume/
+CS-498-Resume-Management-Platform/
+│	scripts/
+│	├── src/
+│	│   ├── app/                        # Main application routing and pages [cite: 27]
+│	│   │   ├── [hash]/                 # Dynamic route for viewing specific resumes
+│	│   │   │   ├── ActionMenu.tsx      # Menu for resume actions (view/delete)
+│	│   │   │   ├── Logo.tsx            # Component for the site logo
+│	│   │   │   └── page.tsx            # Logic for displaying an individual resume
+│	│   │   ├── fonts/                  # Local font files (GeistMonoVF, GeistVF)
+│	│   │   ├── search/                 # Search functionality page [cite: 84]
+│	│   │   │   └── page.tsx            # Logic for searching the resume database [cite: 21]
+│	│   │   ├── upload/                 # Resume upload page [cite: 81]
+│	│   │   │   └── page.tsx            # Logic for file selection and Firebase upload [cite: 36, 37]
+│	│   │   ├── globals.css             # Global CSS styles and Tailwind imports
+│	│   │   ├── icon.png                # Website favicon/icon
+│	│   │   ├── layout.tsx              # Root layout shared across all pages
+│	│   │   └── page.tsx                # Homepage / Landing page
+│	│   ├── components/                 # Reusable UI components [cite: 33, 44]
+│	│   │   └── ui/                     # Individual UI elements (Radix + Lucide) [cite: 44]
+│	│   │       ├── alert.tsx
+│	│   │       ├── button.tsx
+│	│   │       ├── card.tsx
+│	│   │       ├── dropdown-menu.tsx
+│	│   │       ├── input.tsx
+│	│   │       ├── label.tsx
+│	│   │       ├── switch.tsx
+│	│   │       ├── toast.tsx
+│	│   │       ├── toaster.tsx
+│	│   │       └── use-toast.ts
+│	│   └── lib/                        # Core logic and configurations
+│	│       ├── firebaseConfig.ts       # Firebase initialization and API keys [cite: 60]
+│	│       └── utils.ts                # Helper functions (e.g., Tailwind class merging)
+│	├── public/                         # Static assets (SVGs, images)
+│	├── components.json                 # UI component library configuration
+│	├── firebase.json                   # Firebase hosting and project rules
+│	├── next-env.d.ts                   # Next.js TypeScript declarations
+│	├── next.config.ts                  # Next.js framework settings
+│	├── package-lock.json               # Locked dependency versions
+│	├── package.json                    # Project metadata and dependencies [cite: 4, 5]
+│	├── postcss.config.js               # CSS processing configuration
+│	├── tailwind.config.ts              # Styling system configuration
+│	├── tsconfig.json                   # TypeScript compiler settings
 │
-├── src/
-│   ├── app/                # Core application logic and page implementations [cite: 27]
-│   └── components/ui/      # Modular UI components (Card, Button, Alert, Input) [cite: 44]
+│	docs/
+│	├── project_final_report.pdf		# Summary of the project’s development process
+│	├── project_milestone_2.txt			# A status report documenting the integration of the resume upload and delete features along with a breakdown of individual team member contributions
+│	├── userstories.pdf					# A roadmap document listing fourteen detailed user requirements that defined the platform's core features
 │
-├── public/                 # Static assets and public files
-│
-├── firebase.json           # Firebase configuration for hosting and backend services
-├── next.config.ts          # Next.js configuration settings
-├── package.json            # Project dependencies and scripts
-├── tailwind.config.js      # Styling and design system configuration
-└── README.md               # Project overview and instructions
+└── README.md                       # Project documentation and guide
 ```
 
 ---
@@ -118,3 +154,5 @@ autoume/
    - Jonah Burgess
 
 ---
+
+> Note: This project runs on the firebase that we have created, if in case the firebase is deleted then the user need to create their own Firebase project and replace the keys in firebaseConfig.ts for upload/search features to actually save data.
