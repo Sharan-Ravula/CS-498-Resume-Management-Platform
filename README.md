@@ -20,7 +20,7 @@ The platform leverages Next.js for a responsive frontend and Firebase for robust
 
 ```text
 CS-498-Resume-Management-Platform/
-│	scripts/
+├──	scripts/
 │	├── src/
 │	│   ├── app/                        # Main application routing and pages [cite: 27]
 │	│   │   ├── [hash]/                 # Dynamic route for viewing specific resumes
@@ -64,12 +64,12 @@ CS-498-Resume-Management-Platform/
 │	├── postcss.config.mjs              # ES Module CSS processing configuration
 │	├── tailwind.config.js              # JavaScript styling system configuration
 │
-│	docs/
+├──	docs/
 │	├── project_final_report.pdf		# Summary of the project’s development process
 │	├── project_milestone_2.txt			# A status report documenting the integration of the resume upload and delete features along with a breakdown of individual team member contributions
 │	├── userstories.pdf					# A roadmap document listing fourteen detailed user requirements that defined the platform's core features
 │
-│	LICENSE                             # License information for the repository
+├──	LICENSE                             # License information for the repository
 └── README.md                       	# Project documentation and guide
 ```
 
