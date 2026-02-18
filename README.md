@@ -69,6 +69,7 @@ CS-498-Resume-Management-Platform/
 │	├── project_milestone_2.txt			# A status report documenting the integration of the resume upload and delete features along with a breakdown of individual team member contributions
 │	├── userstories.pdf					# A roadmap document listing fourteen detailed user requirements that defined the platform's core features
 │
+│	LICENSE                             # License information for the repository
 └── README.md                       	# Project documentation and guide
 ```
 
