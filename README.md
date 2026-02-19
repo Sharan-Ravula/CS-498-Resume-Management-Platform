@@ -77,37 +77,37 @@ CS-498-Resume-Management-Platform/
 
 ## 🛠 Core Functionalities & Team
 
-- **Backend & Upload Logic** (`Nnaemeka Okafor`): Established the Firebase integration and implemented the primary resume upload functionality, ensuring files are stored securely.
+- Backend & Upload Logic (`Nnaemeka Okafor`): Established the Firebase integration and implemented the primary resume upload functionality, ensuring files are stored securely.
   
-- **Management & Deletion** (`Sharan Ravula`): Developed the functionality for users to permanently remove their resumes from the database to protect personal information.
+- Management & Deletion (`Sharan Ravula`): Developed the functionality for users to permanently remove their resumes from the database to protect personal information.
   
-- **Search & Discovery** (`Jonah Burgess`): Implemented a keyword search feature to allow users and recruiters to navigate the resume database efficiently.
+- Search & Discovery (`Jonah Burgess`): Implemented a keyword search feature to allow users and recruiters to navigate the resume database efficiently.
   
-- **Project Lead & Planning** (`Justin Haycraft`): Orchestrated the development lifecycle, organized the codebase, and managed documentation.
+- Project Lead & Planning (`Justin Haycraft`): Orchestrated the development lifecycle, organized the codebase, and managed documentation.
 
 ---
 
 ## ⚙️ Technical Specifications
 
-- **Frontend Framework**: `Next.js` (React) with `TypeScript` for type-safe development.
+- Frontend Framework: `Next.js` (React) with `TypeScript` for type-safe development.
   
-- **Backend-as-a-Service**: `Firebase` (Firestore for metadata and Firebase Storage for PDF files).
+- Backend-as-a-Service: `Firebase` (Firestore for metadata and Firebase Storage for PDF files).
   
-- **Styling**: `Tailwind` `CSS` for a clean, professional "corporate" aesthetic.
+- Styling: `Tailwind` `CSS` for a clean, professional "corporate" aesthetic.
   
-- **Design Pattern**: Highly modular and encapsulated structure, utilizing reusable UI components from a central directory
+- Design Pattern: Highly modular and encapsulated structure, utilizing reusable UI components from a central directory
 
 ---
 
 ## 🧪 Key Features
 
-- **Secure Upload**: Validates file types and sizes before storing resumes in the cloud.
+- Secure Upload: Validates file types and sizes before storing resumes in the cloud.
   
-- **Privacy Control**: Includes a "Searchable" toggle to allow users to opt-out of public viewing.
+- Privacy Control: Includes a "Searchable" toggle to allow users to opt-out of public viewing.
   
-- **Shareable Links**: Once uploaded, users receive a persuasive link and QR code to instantly share their professional profile.
+- Shareable Links: Once uploaded, users receive a persuasive link and QR code to instantly share their professional profile.
   
-- **Management Dashboard**: A centralized interface to view, search, and delete uploaded documents
+- Management Dashboard: A centralized interface to view, search, and delete uploaded documents
 
 ---
 
@@ -115,40 +115,40 @@ CS-498-Resume-Management-Platform/
 
 ### 💥 Setup and Installation:
 
-1. **To get the project running on your local machine, follow these steps**:
+1. To get the project running on your local machine, follow these steps:
 
 	> Open your terminal and navigate to the project directory.
 
-    - **Run the following command to install all the required dependencies**.
+    - Run the following command to install all the required dependencies.
     
 	  ```bash
       npm install
     
-2. **Running the Application**
+2. Running the Application
 
    > Once the dependencies are installed
    
-   - **Start the development server by running this command**:
+   - Start the development server by running this command:
 
 	 ```bash
 	 npm run dev
    
-3. **The application should now be accessible in your web browser at**
+3. The application should now be accessible in your web browser at
 
    ```bash
    http://localhost:3000
 
-4. **Common Issues & Solutions**
+4. Common Issues & Solutions
 
-- **When you encounter `Module Not Found Errors` use these commands**:
+- When you encounter `Module Not Found Errors` use these commands:
 
   ```bash
   npm install @radix-ui/react-switch
   npm install @radix-ui/react-dropdown-menu
   
-5. **Website Link**: [Resume Management Platform](https://autoume-41f5f.web.app/upload)
+5. Website Link: [Resume Management Platform](https://autoume-41f5f.web.app/upload)
 
-6. **Contributors**:
+6. Contributors:
    
    - Sharan Ravula
      
