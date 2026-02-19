@@ -12,7 +12,7 @@ Autoume is a comprehensive resume management platform that enables users to secu
 
 ## 🚀 Project Overview:
 
-The platform leverages Next.js for a responsive frontend and Firebase for robust backend services, including file storage and real-time database management. Users can upload their resumes to a secure database, toggle visibility settings for privacy, and generate shareable links for employers.
+The platform leverages `Next.js` for a responsive frontend and Firebase for robust backend services, including file storage and real-time database management. Users can upload their resumes to a secure database, toggle visibility settings for privacy, and generate shareable links for employers.
 
 ---
 
@@ -115,38 +115,40 @@ CS-498-Resume-Management-Platform/
 
 ### 💥 Setup and Installation:
 
-1. To get the project running on your local machine, follow these steps:
+1. **To get the project running on your local machine, follow these steps**:
 
-	- Open your terminal and navigate to the project directory.
+	> Open your terminal and navigate to the project directory.
 
-    - Run the following command to install all the required dependencies.
+    - **Run the following command to install all the required dependencies**.
     
 	  ```bash
       npm install
     
-2. Running the Application
+2. **Running the Application**
 
-   - Once the dependencies are installed, you can start the development server by running this command:
+   > Once the dependencies are installed
+   
+   - **Start the development server by running this command**:
 
 	 ```bash
 	 npm run dev
    
-3. The application should now be accessible in your web browser at
+3. **The application should now be accessible in your web browser at**
 
    ```bash
    http://localhost:3000
 
-4. Common Issues & Solutions
+4. **Common Issues & Solutions**
 
-- When you encounter `Module Not Found Errors` use these commands:
+- **When you encounter `Module Not Found Errors` use these commands**:
 
   ```bash
   npm install @radix-ui/react-switch
   npm install @radix-ui/react-dropdown-menu
   
-5. Website Link: [Resume Management Platform](https://autoume-41f5f.web.app/upload)
+5. **Website Link**: [Resume Management Platform](https://autoume-41f5f.web.app/upload)
 
-6. Contributors:
+6. **Contributors**:
    
    - Sharan Ravula
      
